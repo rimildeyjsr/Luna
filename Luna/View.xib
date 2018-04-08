@@ -90,6 +90,15 @@
                 <constraint firstItem="bME-tQ-7Ts" firstAttribute="leading" secondItem="YIK-cQ-eYw" secondAttribute="trailing" constant="8" id="vOd-2R-brw"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="AgeLabel" destination="Gdz-87-zM2" id="G7e-Ym-iFQ"/>
+                <outlet property="IlluminationLabel" destination="6EE-hk-Kua" id="NVn-NT-I0U"/>
+                <outlet property="PhaseLabel" destination="FKJ-z9-hwB" id="B7V-1W-SJh"/>
+                <outlet property="Rise" destination="YIK-cQ-eYw" id="Pn5-qg-aHv"/>
+                <outlet property="RiseLabel" destination="bME-tQ-7Ts" id="Osp-KW-izy"/>
+                <outlet property="Set" destination="rqK-ZQ-goI" id="byG-8j-1Qv"/>
+                <outlet property="SetLabel" destination="q2l-pf-ipk" id="D18-I3-gqW"/>
+            </connections>
             <point key="canvasLocation" x="83" y="-69"/>
         </view>
     </objects>
